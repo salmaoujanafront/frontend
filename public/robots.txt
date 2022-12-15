@@ -1,0 +1,6 @@
+Sitemap: https://dsp-archiwebo21-ss-da-om-en.fr/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

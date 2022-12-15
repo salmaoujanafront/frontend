@@ -1,0 +1,33 @@
+# version: '1'
+# services:
+#   web:
+#     build: 
+     
+#       dockerfile: Dockerfile
+   
+#     volumes:
+#      - .:/opt/app
+#       - /opt/app/node_modules
+#       - /opt/app/.next
+#     ports:
+#       - "3000:3000"
+
+
+version: '1'
+services:
+  web:
+    build: .
+    command: npm start
+    volumes:
+     - .:/usr/app/frontend
+      - /usr/app/frontend/node_modules
+      - /usr/app/frontend/.next
+    ports:
+      - "3000:3000"
+   
+    environment:
+      DATABASE_URL: postgres://todoapp@postgres/todos
+ 
+   
+  
+ 

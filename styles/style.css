@@ -1,0 +1,214 @@
+.home{
+    margin-left: 12rem;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.admin-info{
+    margin-right: 2rem;    
+}
+
+.line{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.client-info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.client-info .c{
+    padding: 3rem;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 35rem;
+    margin: 0 5rem;
+    position: relative;
+}
+
+.client-info .c h2{
+    font-size: 5rem;
+    color: #06853d;
+}
+
+.client-info .c h4{
+    font-size: 2rem;
+    color: #1e1312;
+}
+
+.client-info .c .icon-c{
+    font-size: 5rem;
+    color: #1e1312;
+    position: absolute;
+    left: 25rem;
+    bottom: 5rem;
+}
+
+.graphs{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.total-tickets{
+    margin: 5rem 15rem;
+    position: relative;
+}
+
+.total-tickets h3{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.total-tickets div{
+    padding: 4rem;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 35rem;
+    position: relative;
+    margin-top: 2rem;
+    background-color: #06853d;
+}
+
+.total-tickets div h4{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.total-tickets div h2{
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.total-tickets div .icon-t{
+    position: absolute;
+    font-size: 5rem;
+    color: #ffffff;
+    left: 25rem;
+    bottom: 10rem;
+}
+
+.ticket-percentage{
+    margin-right: 5rem;
+    margin-top: 10rem;
+    height: 42rem;
+    width: 45rem;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    position: relative;
+}
+
+.ticket-percentage h3{
+    font-size: 2rem;
+    color: #1e1312;
+    margin-top: 2rem;
+}
+
+.ticket-graph{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.graph-item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.graph-item .t{
+    height: 2rem;
+    width: 1rem;
+}
+
+.graph-item .ticket-non-graph{
+    background-color: #1e1312;
+}
+.graph-item .ticket-graph{
+    background-color: #06853d;
+    margin-bottom: 2rem;
+}
+
+.graph-item h4{
+    font-size: 1.5rem;
+}
+
+.chart{
+    position: absolute;
+    margin-left: 8rem;
+}
+
+.pie-chart{
+    width: 23rem;
+}
+
+.userData{
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 991px) {
+    .home{
+        margin-left: 1rem;
+    }
+    .topbar{
+        margin-top: 2rem;
+    }
+    .admin-info{
+        margin-right: 1rem;  
+    }
+    .client-info .c{
+        padding: 2rem;
+        border-radius: 20px;
+        height: 20rem;
+        width: 18rem;
+        margin: 1rem;
+    }
+    .client-info{
+        justify-content: center;
+    }
+    .client-info .c .icon-c{
+        font-size: 2rem;
+        left: 3rem;
+        bottom: 1rem;
+    }
+    .graphs{
+        flex-direction: column;
+    }
+    .total-tickets{
+        margin: 2rem 0rem;
+    }
+    .ticket-percentage{
+        margin-right: 0rem;
+        margin-top: 3rem;
+        height: 38rem;
+        width: 40rem;
+        border-radius: 15px;
+    }
+    .chart{
+        position: absolute;
+        margin-left: 7rem;
+    }
+    .pie-chart{
+        width: 20rem;
+    }
+    .userData{
+        padding: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
